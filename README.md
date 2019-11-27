@@ -20,6 +20,21 @@ most recent OpenStack release.
 
 See the full [MicroStack documentation][microstack-docs].
 
+ **Verify CPUs and Memory**:
+ 
+    $ free -h
+    
+    $ grep -c ^processor /proc/cpuinfo
+
+ **Configure Hostname**:
+    
+    $ sudo hostnamectl set-hostname  openstack-lab-XY.bdren.net.bd --static
+    
+    $ sudo reboot
+    
+    $hostname
+
+
 ## Installation
 
 At this time you can install from the `--beta` or `--edge` snap channels:
@@ -64,20 +79,3 @@ credentials are:
     username: admin
     password: keystone
 
-## Customising and contributing
-
-To customise services and settings, look in the `.d` directories under
-`/var/snap/microstack/common/etc`. You can add services with your package
-manager, or take a look at `CONTRIBUTING.md` and make a code based argument for
-adding a service to the default list.
-
-## Reporting a bug
-
-Please report bugs to the [MicroStack][microstack] project on Launchpad.
-
-<!-- LINKS -->
-
-[microstack-docs]: https://microstack.run/docs/
-[snap-build-badge]: https://build.snapcraft.io/badge/CanonicalLtd/microstack.svg
-[snap-build-status]: https://build.snapcraft.io/user/CanonicalLtd/microstack
-[microstack]: https://bugs.launchpad.net/microstack
