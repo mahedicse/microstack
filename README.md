@@ -38,7 +38,7 @@ most recent OpenStack release.
 
 At this time you can install from the `--beta` or `--edge` snap channels:
 
-    sudo snap install microstack --classic --beta
+    sudo snap install microstack --classic --edge
 
 ## Initialisation
 
