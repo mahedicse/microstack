@@ -60,9 +60,9 @@ The OpenStack client is bundled as `microstack.openstack`. For example:
 
 ## Creating an instance
 
-To create an instance (called "awesome") based on the CirrOS image:
+To create an instance (called "Test-VM") based on the CirrOS image:
 
-    microstack.launch cirros --name awesome
+    microstack.launch cirros --name Test-VM
 
 ## SSH to an instance
 
