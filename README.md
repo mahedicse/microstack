@@ -18,8 +18,6 @@ most recent OpenStack release.
 > **Requirements**:
   You will need at least 2 CPUs, 8 GiB of memory, and 100 GiB of disk space.
 
-See the full [MicroStack documentation][microstack-docs].
-
  **Verify CPUs and Memory**:
  
     $ free -h
