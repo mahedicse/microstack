@@ -1,4 +1,5 @@
-# microstack deployment Lab
+# MicroStack Deployment Lab
+
 MicroStack is a single-machine, snap-deployed OpenStack cloud.
 
 Common purposes include:
@@ -71,9 +72,10 @@ image, the user account is 'cirros'.
 
 ## Horizon
 
-The launch output will also provide information for the Horizon dashboard. Its
-credentials are:
+Launch Horizon dashboard: http://openstack-lab-XY.bdren.net.bd 
+Its credentials are:
 
     username: admin
     password: keystone
 
+For Details Visit: https://microstack.run/docs/
